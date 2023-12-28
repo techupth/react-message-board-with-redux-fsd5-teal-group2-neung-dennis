@@ -12,7 +12,6 @@ function MessageBoard() {
       return;
     }
     dispatch(addMessage(e.target[0].value));
-    dispatch(addMessage(e.target[0].value));
   }
   const message = useSelector((state) => {
     return state.message;
